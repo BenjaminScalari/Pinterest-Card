@@ -62,7 +62,6 @@ a {
 .label, 
 .action, 
 .dots {
-  /* position: absolute; */
   background-color: rgb(255, 255, 255);
   padding: 10px 15px;
   position: absolute;
@@ -85,7 +84,7 @@ a {
   bottom: 15px;
 }
 
-.overlay:hover {
+.card:hover .overlay {
   background-color: rgba(0, 0, 0, 0.2);
   transition: 0.2s;
 }
